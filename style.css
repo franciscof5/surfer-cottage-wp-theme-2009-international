@@ -1,0 +1,109 @@
+/*
+
+Theme Name: Surfers Cottage
+Theme URI: http://www.surferscottage.com
+Description: Theme made for the Surfer's Cottage website, by F5 Sites (www.f5sites.com)
+Version: 2 (WP2.9)
+Author: Francisco Matelli
+Author URI: http://www.f5sites.com
+Tags: francisco, matelli, francisco matelli, wp, f5sites, f5 sites
+
+
+/* 1 - Structure of Header, Menu, Content, Sidebars and Footer *
+Float, height, width, padding, margin
+
+/* 2 - Design of Header, Menu, Content, Sidebars and Footer *
+color, background, font-family, font-size, border, text-align
+
+/* 3 - Pre-defined clases *
+h1, h2, h3, h4, h5, h6, p, a, a:hover, .centralized,
+
+/* 4 - Structure and Design of isolated html itens *
+Widgets
+
+/* 5 - General Class *
+used a lot of times
+
+*/
+
+/* 1 - Structure of Header, Menu, Content, Sidebars and Footer */
+/* 2 - Design of Header, Menu, Content, Sidebars and Footer */
+/* 3 - Pre-defined clases */
+/* 4 - Structure and Design of isolated html itens */
+/* 5 - General Class *
+
+More information, the gerenal template was
+<div id="wrap">
+	<div id="logotipo" class="centralizado" />
+	<div id="header-image" />
+	<div id="header-menu" />
+	<div id="main" class="clearfix">
+		<div id="main-content-3-columns" class="padding10" />
+		<div id="main-sidebar-sections"  class="padding10" />
+		<div id="main-sidebar-ad "       class="padding10" />
+	</div>
+</div>
+<div id="footer">
+	<div id="footer_content" class="centralizado" />
+</div>
+
+*/
+
+@import "include/fonts/stylesheet.css";
+
+*{text-decoration:none; margin:0; padding:0; list-style:none; border:0; font-family:Arial, Helvetica, sans-serif;}
+*:focus { outline: 0;-moz-outline: 0 none;}
+a { outline: none;}
+a:active {outline: none;}
+:focus { -moz-outline-style: none; outline: none;}
+
+/* 1 - Structure of Header, Menu, Content, Sidebars and Footer */
+#header-logotipo           {height:75px; margin-top:20px;}
+/*#header-image            {height:400px;}*/
+#header-menu               {height:45px;} 
+.main-content              {float:left; min-height:500px; width:50%;}
+#main-post, #main-location {width:72%; float:left;} 
+.sidebar                   {width:21%;}
+#main-sidebar-sections     {float:right;} #main-sidebar-ad {float:right; margin-top:-10px;} #main-sidebar-general {float:right; width:30%;}
+#footer                    {clear:both;display:block;height:100px;}
+
+/* 2 - Design of Header, Menu, Content, Sidebars and Footer */
+#header-menu     {border-bottom:0.25px solid #888; height:45px; font-family:'GillSansMTRegular', Trebuchet MS; font-weight:bold; text-align:center; line-height:24px; font-size:14px;} #header-menu a {color:#000000;} #header-menu a:hover  {color:#F7941C}
+.main-content    {} .main-content h3 {color:#999999}  .main-content hr {height:0px; border:0; border-top:1.5px dotted #888; height:0px;} .main-content a {color:#444444;}
+#main-location   {font-weight:bold; font-size:12px;} #main-location h3 {font-weight:bold} #main-location p {margin-bottom:5px;} #main-location a {color:#A6C5DD; text-decoration:underline;}
+.sidebar hr.li{height:2px;} .sidebar hr {height:1px; background:#CCC; border:0;} 
+#main-sidebar-sections ul {width:188px;} #main-sidebar-sections ul li:hover {background-color:#EEE;}
+#footer  {border-top:0.25px solid #888;} #footer ul li {float:left; margin-left:30px;}
+
+/* 3 - Pre-defined clases */
+hr {margin:5px 0;}
+a  {color:#999999}
+a:hover  {color:#F7941C}
+h1 {font-family:Arial, Verdana; font-weight:bold; font-size:16px; color:#444444}
+h2 {font-family:'GillSansMTRegular', Arial, Verdana; font-weight:100; font-size:16px; color:#666}
+h3 {font-family:'CenturyGothicRegular'; margin-right:10px; color:#EEE; font-size:16px; font-weight:bold;}
+html, body {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+
+
+/* 4 - Structure and Design of isolated html itens */
+/**/#box_gray {background-color:#ABABAB; color:#FFFFFF} #box_gray hr {height:0px; border-top:2px dotted #FFF;} #box_gray p {color:#666666; font-weight:bold; font-size:12px;} #box_gray input {border-top:2px solid #AAA}  #box_gray a {color:#EEE;}
+/*menu*/#ul-header-menu li {float:left; width:140px; padding:10px 0 0 0; } a.menu_button { width: 140px; height: 20px; display: block; border:0;} a.menu_button span { display: block; } 
+.page-item-8 {margin:0px 35px;}
+/*#menu_home { background: url(images/555menu/menu_home.jpg) no-repeat 0px 0px; margin:0px 0px;} #menu_home:hover {background: url(images/555menu/menu_home.jpg) no-repeat 0px -20px} #menu_about { background: url(images/555menu/menu_about.jpg); margin:0px -20px;}  #menu_about:hover {background: url(images/555menu/menu_about.jpg) no-repeat 0px -20px} #menu_packages { background: url(images/555menu/menu_packages.jpg); margin:0px 20px;}  #menu_packages:hover {background: url(images/555menu/menu_packages.jpg) no-repeat 0px -20px} #menu_book { background: url(images/555menu/menu_book.jpg); margin:0px 25px;}  #menu_book:hover {background: url(images/555menu/menu_book.jpg) no-repeat 0px -20px} #menu_location { background: url(images/555menu/menu_location.jpg); margin:0px 10px;}  #menu_location:hover {background: url(images/555menu/menu_location.jpg) no-repeat 0px -20px} #menu_contact { background: url(images/555menu/menu_contact.jpg); margin:0px 0px;} #menu_contact:hover {background: url(images/555menu/menu_contact.jpg) no-repeat 0px -20px}
+/*plugins booking calendar*/ #calendar_booking2 {margin:30px 0px;} #booking_form_div2 p{margin:20px 0}
+/*plugins cf5*/ .wpcf7 p{margin:20px 0}
+/*plugin qtranslate*/ #qtranslate-chooser .active {display:none; text-align:right;} #qtranslate-chooser a {color:#F00000; font-size:12px; font-weight:bold;} #qtranslate-chooser a span {float:right} .qtrans_widget_end {clear:both}
+/*plugin twitter tools*/ .aktt_tweets { text-align:justify; background-color:#000000; border:3px solid #000; padding-top:10px;} .aktt_tweets li { font-size:12px; padding:6px; background-color:#FFFFFF; border-bottom:1px dotted #999999;} .aktt_twitter_extra {background-color:#000000; font-size:12px; height:25px; padding:5px;} .aktt_twitter_extra_image {float:left; margin-right:5px;}
+#header-image {height:400px; width:950px;}
+#header-image-alternative {height:400px; width:950px; position:absolute; top:120px; z-index:-100;}
+
+/* 5 - General Class */
+.centralized {width:950px; margin:0 auto;}
+.padding10 {padding:10px 10px 10px 10px;}
+.float_r {float:right} .float_l {float:left}
+.clearboth {clear:both}
+.entry {display:block; clear:both;}
+.border_right {border-right:1px dotted #888;}
+.mark-margin {width:16px; height:18px; margin:0 5px 0 2px;}
+.mark-red {width:16px; height:18px; background:url(images/red-mark.png) no-repeat top center; margin:0 5px 0 2px;}

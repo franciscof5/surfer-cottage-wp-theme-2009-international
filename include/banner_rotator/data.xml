@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Banner 	
+	bannerWidth=""
+	bannerHeight=""
+	bannerBackgroundColor=""
+	bannerLoopCount=""
+	bannerCornerRadius=""
+	buttonsVerticalMargin="3"
+	buttonsHorizontalMargin="3"
+
+	textEmbed(Smooth)="yes"
+	textBoldAll="yes"
+	textSize="14"
+	textColor=""
+	textAreaWidth=""
+	textLineSpacing="0"	
+	textLetterSpacing="-0.5"	
+	textMarginLeft="12"
+	textMarginBottom="5"
+	textBackgroundBlur="yes"
+	textBackgroundColor="000000"
+	textBackgroundTransparency="20"	
+		
+	transitionType="1"
+	transitionVertical="no"
+	transitionDirection="1"
+	
+	transitionRandomEffects="no"
+	transitionDelayTimeFixed="2" 
+	transitionDelayTimePerWord=".5"
+	transitionSpeed="8"
+	transitionBlur="yes"		
+	
+	showTimerClock="yes"
+	showNextButton="no"
+	showBackButton="no"
+	showNumberButtons="yes"
+	showNumberButtonsAlways="no"
+	showNumberButtonsHorizontal="no"
+	showNumberButtonsAscending="yes"
+	showPlayPauseOnTimer="no"
+	
+	alignButtonsLeft="no"
+	alignTextTop="no"
+	
+	autoPlay="yes"	
+	imageResizeToFit="yes"
+	imageRandomizeOrder="no"
+	
+	>
+	
+	<item buttonLabel=""
+		image="image1.jpg" 
+		link="http://www.google.co.in/search?hl=en&q=1"
+		target="_blank"
+		delay=""
+		textBlend="no"><![CDATA[XML DRIVEN CAPTION.<BR>Adjustable Size, <font color='#FFCC00'>Color</font> with ability to add <a href='http://www.google.com' target='_blank'><font color='#CCFF66'>Hyper Links</font></a>.]]>
+	</item>
+
+	<item buttonLabel=""
+		image="image2.jpg"
+		link="http://www.google.co.in/search?hl=en&q=2"
+		target="_blank"
+		delay=""
+		textBlend="no"><![CDATA[Adjustable LINE SPACING, LETTER SPACING and caption WIDTH through XML.]]>
+	</item>
+	
+	<item buttonLabel=""
+		image="image3.swf"
+		link="http://www.google.co.in/search?hl=en&q=3"
+		target="_blank"
+		delay=""
+		textBlend="no"><![CDATA[POSSIBLE TO LOAD SWF FILES. <BR>Animations can go inside the blur area.]]>
+	</item>
+	
+	<item buttonLabel=""
+		image="image4.jpg"
+		link="http://www.google.co.in/search?hl=en&q=4"
+		target="_blank"
+		delay=""
+		textBlend="yes"><![CDATA[This text made to BLEND with background. For each caption, you can enable / disable this option through XML.]]>
+	</item>
+
+	<item buttonLabel=""
+		image="image5.jpg"
+		link="http://www.google.co.in/search?hl=en&q=5"
+		target="_blank"
+		delay=""
+		textBlend="no"><![CDATA[Adjustable TRANSITION SPEED and DELAY TIME.]]>
+	</item>
+
+	<item buttonLabel=""
+		image="image6.jpg"
+		link="http://www.google.co.in/search?hl=en&q=6"
+		target="_blank"
+		delay=""
+		textBlend="no"><![CDATA[You can choose embedded text or normal text.]]>
+	</item>	
+	
+	
+</Banner>
+
